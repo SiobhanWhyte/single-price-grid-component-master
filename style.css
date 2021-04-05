@@ -3,26 +3,17 @@
 
 * {
     box-sizing: border-box;
-    margin: 0;
     padding: 0;
 }
 
 body {
     min-height : 100vh;
     font-family: 'Karla', sans-serif;
-    background-color: hsl(204, 43%, 93%);
     margin: 0 auto;
     display:flex;
     align-items: center;
     justify-content: center;
-}
-
-header {
-    background-color: white;
-    overflow: hidden;
-    padding: 40px;
-    width: 300px;
-    height: 500px;
+    max-width: 1440px;
 }
 
 h1 {
@@ -34,29 +25,67 @@ h2 {
 }
 
 p {
-    color:  hsl(218, 22%, 67%);
+    color: white;
+}
+
+li {
+    list-style: none;
+}
+
+button {
+    background-color:hsl(71, 73%, 54%);
+    color: white;
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    border: hsl(0, 0%, 95%);
+    align-items: center;
+    width: 180px;
+    font-size: 16px;
+    outline :none;
+    cursor: pointer;
 
 }
+
+button:hover { background-color: #e2e1dd; }
 
 .container {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        align-items: center;
         margin: 0 auto;
-        max-width: 1440px;
-        border-radius: 10px;
+        max-width: 650px;
+        max-height: 600px;
+        border-color: black;
     }
+
+    .header {
+        background-color: white;
+        border: black;
+        width: 650px;
+    }
+
+    .card {
+        color: white;
+        display:flex;
+        justify-content: center;
+        width: 650px;
+    }
+
+.card_one {
+    background-color: hsl(179, 62%, 43%);
+    padding: 50px;
 }
 
-.card-one {
-    color: hsl(179, 62%, 43%);
 
-}
 
-.card-two {
+.card_two {
     background-color: hsl(218, 22%, 67%);
+    padding: 50px;
 
 }
+
 
 
 .attribution { font-size: 11px; text-align: center; }
