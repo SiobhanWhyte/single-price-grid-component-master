@@ -18,7 +18,8 @@ body {
 
 h1 {
     color: hsl(179, 62%, 43%);
-    font-size: 30px;
+    font-size: 25px;
+    font-weight: 100;
 }
 
 h2 {
@@ -28,25 +29,29 @@ h2 {
 
 p {
     color: white;
-    font-size: 16px;
+}
+
+span {
+    font-size: 14px;
+    color: hsl(204, 43%, 93%);
 }
 
 li {
     list-style: none;
-    color: hsla(225, 14%, 95%, 0.979);
-    font-size: 16px;
+    color: hsl(204, 43%, 93%);
+    font-size: 14px;
 }
 
 button {
     background-color:hsl(71, 73%, 54%);
     color: white;
-    margin-top: 40px;
+    margin-top: 20px;
     padding: 10px;
     border-radius: 5px;
     border: hsl(0, 0%, 95%);
     align-items: center;
-    width: 180px;
-    font-size: 16px;
+    width: 210px;
+    font-size: 14px;
     outline :none;
     cursor: pointer;
 
@@ -87,6 +92,20 @@ button:hover { background-color: #e2e1dd; }
     border-bottom-left-radius: 5px;
 }
 
+.title {
+    font-size: 16px;
+}
+
+.cost {
+    font-size: 30px;
+    margin: 5px;
+
+}
+
+.time_period {
+margin: 0 auto;
+font-size: 14px;
+}
 
 
 .card_two {
@@ -96,12 +115,13 @@ button:hover { background-color: #e2e1dd; }
     border-bottom-right-radius: 5px;
 }
 
-
+.list_title {
+    font-size: 16px;
+}
 
 .attribution { 
     font-size: 11px; 
     color: black;
-    text-align: center;
     text-align: center;
     display: flex;
     align-items: center;
