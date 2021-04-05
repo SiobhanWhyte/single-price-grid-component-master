@@ -1,2 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height : 100vh;
+    font-family: 'Karla', sans-serif;
+    background-color: hsl(204, 43%, 93%);
+    margin: 0 auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    background-color: white;
+    overflow: hidden;
+    padding: 40px;
+    width: 300px;
+    height: 500px;
+}
+
+h1 {
+    color: hsl(179, 62%, 43%);
+}
+
+h2 {
+    color: hsl(71, 73%, 54%);
+}
+
+p {
+    color:  hsl(218, 22%, 67%);
+
+}
+
+.container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 auto;
+        max-width: 1440px;
+        border-radius: 10px;
+    }
+}
+
+.card-one {
+    color: hsl(179, 62%, 43%);
+
+}
+
+.card-two {
+    background-color: hsl(218, 22%, 67%);
+
+}
+
+
 .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
